@@ -21,8 +21,8 @@ echo "tempc=$values->temperature_c, tempf=$tempf hum=$values->humidity\n";
 
 $url = "https://weatherstation.wunderground.com/weatherstation/updateweatherstation.php";
 $url .= "?dateutc=now";
-$url .= "&ID=IZWOLLE50";
-$url .= "&PASSWORD=hnh54umb";
+$url .= "&ID=xxxxxxxxxxx";
+$url .= "&PASSWORD=yyyyyyyy";
 $url .= "&action=updateraw";
 $url .= "&tempf=".number_format($tempf, 2);
 $url .= "&humidity=".number_format($values->humidity, 2);
