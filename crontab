@@ -1,0 +1,1 @@
+*/15 * * * * /usr/bin/php /home/pi/prototypes/temp/wunder.php >> /home/pi/prototypes/temp/cron-wunder.log
